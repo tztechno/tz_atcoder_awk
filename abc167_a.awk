@@ -19,6 +19,18 @@ print "No"
 }
 }
 ################################
+{
+a=$1
+getline
+b=$1
+b2=substr(b,1,length(a))
+if(a==b2){
+  print "Yes"
+}else{
+  print "No"
+}
+}
+################################
 BEGIN{RS=""}
 {
 ans="";
