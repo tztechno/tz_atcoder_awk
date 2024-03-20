@@ -9,7 +9,7 @@
 ####################################
 {S=$1}
 END{
-	if(index(S,"a") &&
+       if(index(S,"a") &&
        index(S,"b") &&
        index(S,"c") ){
        print "Yes";
